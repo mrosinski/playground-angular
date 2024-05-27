@@ -1,0 +1,12 @@
+<header>
+  <h1>Currency rates</h1>
+  <app-currency-form (currencyPair$)="onCurrencyPairChanged($event)" />
+</header>
+
+<main>
+  <app-currency-tile *ngFor="let rate of rates" [currencyRate]="rate" />
+</main>
+
+<footer>
+  <a routerLink="/about">About this page ⮕</a>
+</footer>

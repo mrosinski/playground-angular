@@ -1,0 +1,29 @@
+header {
+  background-color: cadetblue;
+  color: white;
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+footer {
+  background-color: cadetblue;
+  position: fixed;
+  height: 2em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
